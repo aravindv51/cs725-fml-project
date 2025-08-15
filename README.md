@@ -1,4 +1,6 @@
 # cs725-fml-project | COURSE PROJECT
-This is the course project made for the course CS-725 : Fundamentals of Machine Learning, by Prof. Preethi Jyothi, IIT Bombay.
 
-The project is "Intrusion Detection using Stacked Ensemble Classifier"
+* Built a binary classifier for detecting cyberattacks using a real-world network intrusion dataset.
+* Preprocessed and compressed data from 44 to 20 features through encoding, scaling, and PCA.
+* Improved F1-score to 92% using stacked ensemble (Base: Random Forest + SVM, Meta: Logistic Regression).
+
